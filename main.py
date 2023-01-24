@@ -49,9 +49,7 @@ def create_parser():
     )
     parser.add_argument(
         'user_url',
-        help="ссылка для подсчета переходов",
-        default="bit.ly/3VNuchW",
-        type=str
+        help="ссылка для подсчета переходов"
     )
     return parser
 
